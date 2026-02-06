@@ -3,7 +3,9 @@ import java.util.Scanner;
 class Student {
    
 
-
+    // TODO: Create a parameterized constructor Student(String name, int rollNo)
+    
+    // TODO: Create a method or use direct access to print details in the required format
     String name;
     int roll_no;
     Student(String name, int roll_no)
@@ -15,14 +17,26 @@ class Student {
     void getstudent()
     {
         System.out.println("Name: "+name+" Roll: "+roll_no);
-    
+        //System.out.println("");
     }
 }
 
 public class StudentClass {
     public static void main(String[] args) {
         
-            Scanner sc = new Scanner(System.in);            
+        Scanner sc = new Scanner(System.in);
+            
+            // TODO: Read name1
+            // TODO: Read rollNo1
+            // Hint: Handle the newline consumption if using nextLine() after nextInt()
+            
+            // TODO: Read name2
+            // TODO: Read rollNo2
+            
+            // TODO: Create two Student objects
+            
+            // TODO: Print details for both students
+            
             String name1 = sc.nextLine();
             int num1 =  sc.nextInt();
             sc.nextLine();
@@ -33,7 +47,4 @@ public class StudentClass {
             s1.getstudent();
             s2.getstudent();
     }
-}        
-    
-    
 }
